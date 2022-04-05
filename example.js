@@ -39,7 +39,7 @@ var ACCEL_CALIBRATION = {
 // Instantiate and initialize.
 var mpu = new mpu9250({
     // i2c path (default is '/dev/i2c-1')
-    device: '/dev/i2c-2',
+    device: '/dev/i2c-1',
 
     // Enable/Disable debug mode (default false)
     DEBUG: true,
