@@ -286,7 +286,7 @@ mpu9250.prototype.initialize = function() {
  * @return boolean
  */
 mpu9250.prototype.testDevice = function() {
-	return (this.getIDDevice() === 0x71);
+	return (this.getIDDevice() === 0x73);
 };
 
 /**
