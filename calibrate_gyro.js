@@ -45,7 +45,7 @@ var mpu9250 = require('./mpu9250');
 var sleep = require('sleep');
 
 var mpu = new mpu9250({
-    device: '/dev/i2c-2',
+    device: '/dev/i2c-1',
     scaleValues: true,
     UpMagneto: false
 });
